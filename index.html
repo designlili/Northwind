@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Northwind Projekt</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -16,12 +17,17 @@
     header {
       background: #1f4e79;
       color: white;
-      padding: 30px;
+      padding: 35px;
       text-align: center;
     }
 
+    header h1 {
+      color: white;
+      margin-bottom: 10px;
+    }
+
     main {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 30px auto;
       background: white;
       padding: 30px;
@@ -29,12 +35,14 @@
       box-shadow: 0 0 12px rgba(0,0,0,0.1);
     }
 
-    h1, h2 {
+    h2 {
       color: #1f4e79;
+      border-bottom: 2px solid #1f4e79;
+      padding-bottom: 6px;
     }
 
     section {
-      margin-bottom: 30px;
+      margin-bottom: 35px;
     }
 
     ul {
@@ -46,6 +54,26 @@
       padding: 15px;
       border-left: 5px solid #1f4e79;
       margin: 15px 0;
+      border-radius: 6px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+      background: #ddd;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.04);
     }
 
     footer {
@@ -71,9 +99,24 @@
       <h2>Projektbeschreibung</h2>
       <p>
         In diesem Projekt wurde die Northwind-Datenbank komplett neu aufgebaut.
-        Die Tabellen wurden in PostgreSQL erstellt, miteinander über Primary Keys
-        und Foreign Keys verknüpft und anschließend mit CSV-Dateien befüllt.
+        Die Tabellen wurden in PostgreSQL erstellt, mit Primary Keys und Foreign Keys
+        verbunden und anschließend mit CSV-Dateien befüllt.
       </p>
+    </section>
+
+    <section>
+      <h2>Projektbilder</h2>
+      <p>
+        Die folgenden Bilder zeigen Einblicke in unser Northwind-Projekt,
+        die Datenbankstruktur und die Arbeit mit den Tabellen.
+      </p>
+
+      <div class="gallery">
+        <img src="pic_001.png" alt="Projektbild 1">
+        <img src="Pic_002.png" alt="Projektbild 2">
+        <img src="Pic_003.png" alt="Projektbild 3">
+        <img src="Pic_004.png" alt="Projektbild 4">
+      </div>
     </section>
 
     <section>
@@ -94,7 +137,7 @@
     </section>
 
     <section>
-      <h2>Ziele der Analyse</h2>
+      <h2>Ziel der Analyse</h2>
       <div class="box">
         <p>
           Ziel war es, Verkaufsdaten, Lagerbestände, Kunden, Mitarbeiter,
@@ -107,41 +150,70 @@
     <section>
       <h2>Beantwortete Fragen</h2>
       <ul>
-        <li>Welche Produkte wurden verkauft?</li>
-        <li>Welche Produkte waren am Ende noch auf Lager?</li>
-        <li>Welche Produkte waren am teuersten und günstigsten?</li>
+        <li>Welche Produkte wurden im erfassten Zeitraum verkauft?</li>
+        <li>Welche Produkte waren am letzten Stand auf Lager?</li>
+        <li>Welche sind die drei teuersten und drei günstigsten Produkte?</li>
         <li>Welche Produkte kosten über 21 Dollar?</li>
-        <li>Welche Produkte liegen zwischen 5 und 15 Dollar?</li>
+        <li>Welche Produkte kosten zwischen 5 und 15 Dollar?</li>
         <li>Welche Produkte kosten weniger als der Durchschnitt?</li>
-        <li>Welche Produkte wurden eingestellt?</li>
-        <li>Welcher Kunde hat am meisten gekauft?</li>
-        <li>In welchem Alter wurden Mitarbeiter eingestellt?</li>
-        <li>Welche Produkte hatten höhere Bestellzahlen als Lagerbestand?</li>
-        <li>Welcher Verkäufer machte die meisten Geschäfte?</li>
-        <li>Welcher Kunde bestellte die größte Produktmenge?</li>
-        <li>Welche Veränderungen gab es zwischen 1996, 1997 und 1998?</li>
+        <li>Wie viele Produkte wurden verkauft und wie viele wurden eingestellt?</li>
+        <li>Welcher Kunde hat bisher am meisten gekauft?</li>
+        <li>In welchem Alter wurden die Mitarbeiter eingestellt?</li>
+        <li>Bei welchen Artikeln überstiegen die Bestellzahlen den Vorrat?</li>
+        <li>Welcher Verkäufer hat die meisten Geschäfte gemacht?</li>
+        <li>Welcher Kunde hat die größte Menge eines Produkts bestellt?</li>
+        <li>Welche Veränderungen gab es in den Jahren 1996, 1997 und 1998?</li>
       </ul>
     </section>
 
     <section>
-      <h2>Besondere SQL-Funktionen</h2>
+      <h2>Verwendete SQL-Techniken</h2>
       <ul>
-        <li>Views zur besseren Übersicht</li>
-        <li>Aggregatfunktionen wie SUM, AVG und COUNT</li>
+        <li>CREATE TABLE</li>
+        <li>Primary Keys und Foreign Keys</li>
+        <li>COPY zum Importieren von CSV-Dateien</li>
+        <li>SELECT-Abfragen</li>
         <li>JOINs zwischen mehreren Tabellen</li>
+        <li>GROUP BY und ORDER BY</li>
+        <li>Aggregatfunktionen wie SUM, AVG und COUNT</li>
         <li>Unterabfragen</li>
-        <li>Eine Funktion zur Berechnung des Bestellwertes</li>
-        <li>Ein Trigger zur automatischen Reduzierung des Lagerbestands</li>
-        <li>Regex-Beispiel zum Auslesen von COPY-Befehlen</li>
+        <li>Views</li>
+        <li>Funktionen</li>
+        <li>Trigger</li>
+        <li>Regex-Beispiel</li>
       </ul>
+    </section>
+
+    <section>
+      <h2>Views</h2>
+      <div class="box">
+        <p>
+          Es wurden Views erstellt, um wichtige Ergebnisse übersichtlich
+          wiederverwenden zu können, zum Beispiel:
+        </p>
+        <ul>
+          <li>Verkaufsmenge pro Produkt</li>
+          <li>Bestellübersicht</li>
+          <li>Bestellumsatz</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Funktion und Trigger</h2>
+      <p>
+        Zusätzlich wurde eine Funktion erstellt, welche den Gesamtwert einer Bestellung
+        berechnet. Außerdem wurde ein Trigger programmiert, der beim Einfügen neuer
+        Bestellpositionen automatisch den Lagerbestand reduziert.
+      </p>
     </section>
 
     <section>
       <h2>Fazit</h2>
       <p>
         Die Analyse zeigt wichtige Zusammenhänge zwischen Produkten, Verkäufen,
-        Kunden und Lagerbeständen. Besonders deutlich wurden Unterschiede zwischen
-        günstigen und teuren Produkten, wichtige Kunden, erfolgreiche Verkäufer
+        Kunden, Mitarbeitern und Lagerbeständen. Besonders deutlich wurden Unterschiede
+        zwischen günstigen und teuren Produkten, wichtige Kunden, erfolgreiche Verkäufer
         sowie mögliche Lagerprobleme.
       </p>
     </section>

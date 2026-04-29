@@ -1,3 +1,5 @@
+## 🖼️ Projekt Einblicke
+
 >═══════ Nicole ✦ Lili ═══════<
 
 <p align="center">
@@ -120,7 +122,10 @@ Die Analyse zeigt:
 
 ## 👩‍💻 Team
 
-**Nicole & Lili**
+## 👩‍💻 Team
+
+- 🎨 Lili  
+- 💻 [Nicole](https://github.com/USERNAME)
 
 >──────────── ✦ ────────────<
 

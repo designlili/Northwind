@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Northwind Projekt</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #1f4e79;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: #1f4e79;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    .box {
+      background: #eef5fb;
+      padding: 15px;
+      border-left: 5px solid #1f4e79;
+      margin: 15px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1f4e79;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Northwind Datenbank Projekt</h1>
+    <p>PostgreSQL / DBeaver – Nicole und Lili</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Projektbeschreibung</h2>
+      <p>
+        In diesem Projekt wurde die Northwind-Datenbank komplett neu aufgebaut.
+        Die Tabellen wurden in PostgreSQL erstellt, miteinander über Primary Keys
+        und Foreign Keys verknüpft und anschließend mit CSV-Dateien befüllt.
+      </p>
+    </section>
+
+    <section>
+      <h2>Erstellte Tabellen</h2>
+      <ul>
+        <li>categories</li>
+        <li>customers</li>
+        <li>employees</li>
+        <li>regions</li>
+        <li>shippers</li>
+        <li>suppliers</li>
+        <li>territories</li>
+        <li>products</li>
+        <li>orders</li>
+        <li>employee_territories</li>
+        <li>order_details</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Ziele der Analyse</h2>
+      <div class="box">
+        <p>
+          Ziel war es, Verkaufsdaten, Lagerbestände, Kunden, Mitarbeiter,
+          Produkte und Umsätze der fiktiven Firma <strong>Northwind Traders</strong>
+          auszuwerten.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Beantwortete Fragen</h2>
+      <ul>
+        <li>Welche Produkte wurden verkauft?</li>
+        <li>Welche Produkte waren am Ende noch auf Lager?</li>
+        <li>Welche Produkte waren am teuersten und günstigsten?</li>
+        <li>Welche Produkte kosten über 21 Dollar?</li>
+        <li>Welche Produkte liegen zwischen 5 und 15 Dollar?</li>
+        <li>Welche Produkte kosten weniger als der Durchschnitt?</li>
+        <li>Welche Produkte wurden eingestellt?</li>
+        <li>Welcher Kunde hat am meisten gekauft?</li>
+        <li>In welchem Alter wurden Mitarbeiter eingestellt?</li>
+        <li>Welche Produkte hatten höhere Bestellzahlen als Lagerbestand?</li>
+        <li>Welcher Verkäufer machte die meisten Geschäfte?</li>
+        <li>Welcher Kunde bestellte die größte Produktmenge?</li>
+        <li>Welche Veränderungen gab es zwischen 1996, 1997 und 1998?</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Besondere SQL-Funktionen</h2>
+      <ul>
+        <li>Views zur besseren Übersicht</li>
+        <li>Aggregatfunktionen wie SUM, AVG und COUNT</li>
+        <li>JOINs zwischen mehreren Tabellen</li>
+        <li>Unterabfragen</li>
+        <li>Eine Funktion zur Berechnung des Bestellwertes</li>
+        <li>Ein Trigger zur automatischen Reduzierung des Lagerbestands</li>
+        <li>Regex-Beispiel zum Auslesen von COPY-Befehlen</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Fazit</h2>
+      <p>
+        Die Analyse zeigt wichtige Zusammenhänge zwischen Produkten, Verkäufen,
+        Kunden und Lagerbeständen. Besonders deutlich wurden Unterschiede zwischen
+        günstigen und teuren Produkten, wichtige Kunden, erfolgreiche Verkäufer
+        sowie mögliche Lagerprobleme.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Northwind Projekt | Nicole und Lili</p>
+  </footer>
+
+</body>
+</html>

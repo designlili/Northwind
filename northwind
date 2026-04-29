@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Northwind SQL Projekt</title>
+</head>
+<body>
+
+    <h1>Northwind SQL Projekt</h1>
+
+    <p>
+        In diesem Projekt wurde der Northwind-Datensatz in PostgreSQL neu aufgebaut,
+        strukturiert und analysiert.
+    </p>
+
+    <h2>Projektinhalte</h2>
+    <ul>
+        <li>Erstellung relationaler Tabellen</li>
+        <li>Verknüpfung mit Primary Keys und Foreign Keys</li>
+        <li>Import von CSV-Dateien</li>
+        <li>SQL-Abfragen zur Datenanalyse</li>
+        <li>Views, Funktionen und Trigger</li>
+    </ul>
+
+    <h2>Technologien</h2>
+    <ul>
+        <li>PostgreSQL</li>
+        <li>DBeaver</li>
+        <li>SQL</li>
+        <li>GitHub</li>
+    </ul>
+
+    <h2>Analyse</h2>
+    <p>
+        Untersucht wurden unter anderem Verkäufe, Kunden, Produkte,
+        Lagerbestände, Umsätze und Mitarbeiterdaten.
+    </p>
+
+    <h2>Fazit</h2>
+    <p>
+        Das Projekt zeigt praxisnah, wie eine relationale Datenbank aufgebaut,
+        mit Daten befüllt und anschließend mit SQL ausgewertet werden kann.
+    </p>
+
+</body>
+</html>
+
+
+
+

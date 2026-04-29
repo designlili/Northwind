@@ -1,99 +1,129 @@
 # 📊 Northwind Datenbank Projekt
 
-**PostgreSQL | DBeaver**  
-Projekt von *Nicole & Lili*
+<p align="center">
+  <img src="pic_001.png" width="750">
+</p>
+
+<p align="center">
+  <b>PostgreSQL • DBeaver • SQL Analyse</b><br>
+  Projekt von <b>Nicole & Lili</b>
+</p>
 
 ---
 
 ## 🧾 Projektbeschreibung
 
-In diesem Projekt wurde die Northwind-Datenbank vollständig neu aufgebaut.  
-Die Tabellen wurden erstellt, miteinander verknüpft und mit CSV-Daten befüllt.
+Dieses Projekt basiert auf der bekannten **Northwind-Datenbank**.  
+Ziel war es, eine vollständige Datenbankstruktur aufzubauen, Daten zu importieren und umfassende Analysen durchzuführen.
 
-Ziel war die Analyse von:
-- Verkäufen
-- Kunden
-- Produkten
-- Lagerbeständen
-- Umsätzen
+🔍 Fokus:
+- Datenmodellierung
+- Datenanalyse
+- SQL-Abfragen
+- Geschäftslogik
 
 ---
 
 ## 🖼️ Projekt Einblicke
 
-### Datenbank & Struktur
-![Datenbank Screenshot](pic_001.png)
+<p align="center">
+  <img src="Pic_002.png" width="400">
+  <img src="Pic_003.png" width="400">
+</p>
 
-### Tabellen & Beziehungen
-![Tabellen](Pic_002.png)
-
-### SQL Abfragen & Ergebnisse
-![SQL](Pic_003.png)
-
-### Analyse / Auswertung
-![Analyse](Pic_004.png)
+<p align="center">
+  <img src="Pic_004.png" width="400">
+</p>
 
 ---
 
-## 🗂️ Verwendete Tabellen
+## 🗂️ Datenbankstruktur
 
-- categories  
-- customers  
-- employees  
-- regions  
-- shippers  
-- suppliers  
-- territories  
-- products  
-- orders  
-- employee_territories  
-- order_details  
+Folgende Tabellen wurden erstellt und verknüpft:
 
----
-
-## 🔍 Wichtige Analysen
-
-- meistverkaufte Produkte  
-- teuerste & günstigste Produkte  
-- Umsatz pro Kunde  
-- Lagerbestand vs. Nachfrage  
-- erfolgreichster Verkäufer  
-- Entwicklung 1996–1998  
+- 📦 products  
+- 🧾 orders  
+- 📑 order_details  
+- 👥 customers  
+- 👩‍💼 employees  
+- 🚚 shippers  
+- 🏢 suppliers  
+- 🌍 regions  
+- 📍 territories  
+- 🗃️ categories  
 
 ---
 
-## ⚙️ Verwendete SQL-Techniken
+## 🔍 Analysen & Fragestellungen
 
-- JOINs
-- GROUP BY
-- Aggregatfunktionen (SUM, AVG, COUNT)
-- Subqueries
-- Views
-- Funktionen
-- Trigger
-- CSV Import mit COPY
+✔ Welche Produkte wurden am meisten verkauft?  
+✔ Welche Produkte sind am teuersten / günstigsten?  
+✔ Welche Kunden generieren den meisten Umsatz?  
+✔ Wie entwickelt sich das Unternehmen über die Jahre?  
+✔ Gibt es Engpässe im Lagerbestand?  
+✔ Wer ist der erfolgreichste Verkäufer?  
 
 ---
 
-## 🚀 Besondere Features
+## ⚙️ Verwendete Technologien
 
-✔ Funktion zur Berechnung des Bestellwerts  
-✔ Trigger zur automatischen Lagerreduzierung  
-✔ Eigene Views für bessere Übersicht  
-
----
-
-## 📈 Fazit
-
-Das Projekt zeigt deutlich:
-
-- Unterschiede zwischen günstigen und teuren Produkten  
-- wichtige Kunden und Umsatztreiber  
-- Nachfrageverhalten und Lagerprobleme  
-- Entwicklung des Unternehmens über mehrere Jahre  
+- 🐘 PostgreSQL  
+- 🛠️ DBeaver  
+- 💻 SQL  
 
 ---
 
-## 👩‍💻 Projektteam
+## 🧠 SQL Features
+
+- JOINs (mehrere Tabellen verknüpfen)  
+- GROUP BY & Aggregationen  
+- Subqueries  
+- Views  
+- Funktionen  
+- Trigger  
+- CSV-Import mit COPY  
+
+---
+
+## 🚀 Erweiterungen
+
+✨ Eigene Funktion:
+- Berechnung des Bestellwertes
+
+✨ Trigger:
+- Automatische Reduzierung des Lagerbestands
+
+✨ Views:
+- Verkaufsübersicht  
+- Bestellübersicht  
+- Umsatzanalysen  
+
+---
+
+## 📈 Ergebnisse
+
+Die Analyse zeigt:
+
+- klare Umsatztreiber  
+- wichtige Kundenbeziehungen  
+- Unterschiede im Preisniveau  
+- Nachfrage- und Lagerverhalten  
+- Entwicklung des Unternehmens (1996–1998)  
+
+---
+
+## 👩‍💻 Team
 
 **Nicole & Lili**
+
+---
+
+## ⭐ Fazit
+
+Ein vollständiges Datenbankprojekt mit:
+
+✔ Aufbau einer relationalen Datenbank  
+✔ Datenimport aus CSV-Dateien  
+✔ Komplexe SQL-Analysen  
+✔ Erweiterung durch Funktionen & Trigger  
+

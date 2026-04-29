@@ -1,7 +1,7 @@
 # 📊 Northwind Datenbank Projekt
 
 <p align="center">
-  <img src="pic_001.png" width="750">
+  <img src="pic_001.png" width="100%">
 </p>
 
 <p align="center">

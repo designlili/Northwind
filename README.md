@@ -1,55 +1,99 @@
-# Northwind
-Rebuild and analysis of the Northwind dataset using PostgreSQL. Includes database design, CSV import, and 
-SQL queries for sales, customers, and products. Enhanced with views, functions, and triggers to implement business logic.
+# 📊 Northwind Datenbank Projekt
 
-# Northwind SQL Projekt
+**PostgreSQL | DBeaver**  
+Projekt von *Nicole & Lili*
 
-Dieses Projekt analysiert den Northwind-Datensatz mit PostgreSQL.
+---
 
-## Inhalt
+## 🧾 Projektbeschreibung
 
-- Erstellung aller Tabellen
-- Import der CSV-Daten
-- Verknüpfung der Tabellen mit Primary Keys und Foreign Keys
-- SQL-Abfragen zur Datenanalyse
+In diesem Projekt wurde die Northwind-Datenbank vollständig neu aufgebaut.  
+Die Tabellen wurden erstellt, miteinander verknüpft und mit CSV-Daten befüllt.
+
+Ziel war die Analyse von:
+- Verkäufen
+- Kunden
+- Produkten
+- Lagerbeständen
+- Umsätzen
+
+---
+
+## 🖼️ Projekt Einblicke
+
+### Datenbank & Struktur
+![Datenbank Screenshot](pic_001.png)
+
+### Tabellen & Beziehungen
+![Tabellen](Pic_002.png)
+
+### SQL Abfragen & Ergebnisse
+![SQL](Pic_003.png)
+
+### Analyse / Auswertung
+![Analyse](Pic_004.png)
+
+---
+
+## 🗂️ Verwendete Tabellen
+
+- categories  
+- customers  
+- employees  
+- regions  
+- shippers  
+- suppliers  
+- territories  
+- products  
+- orders  
+- employee_territories  
+- order_details  
+
+---
+
+## 🔍 Wichtige Analysen
+
+- meistverkaufte Produkte  
+- teuerste & günstigste Produkte  
+- Umsatz pro Kunde  
+- Lagerbestand vs. Nachfrage  
+- erfolgreichster Verkäufer  
+- Entwicklung 1996–1998  
+
+---
+
+## ⚙️ Verwendete SQL-Techniken
+
+- JOINs
+- GROUP BY
+- Aggregatfunktionen (SUM, AVG, COUNT)
+- Subqueries
 - Views
-- Funktion zur Berechnung des Bestellwerts
-- Trigger zur automatischen Lagerreduzierung
+- Funktionen
+- Trigger
+- CSV Import mit COPY
 
-## Datenbank
+---
 
-Verwendet wurde:
+## 🚀 Besondere Features
 
-- PostgreSQL
-- DBeaver
+✔ Funktion zur Berechnung des Bestellwerts  
+✔ Trigger zur automatischen Lagerreduzierung  
+✔ Eigene Views für bessere Übersicht  
 
-## Dateien
+---
 
-- `northwind_setup.sql`  
-  Erstellt alle Tabellen und importiert die CSV-Dateien.
+## 📈 Fazit
 
-- `queries_auswertung.sql`  
-  Enthält die Antworten auf die Analysefragen.
+Das Projekt zeigt deutlich:
 
-- `views_functions_trigger.sql`  
-  Enthält Views, Funktion und Trigger.
+- Unterschiede zwischen günstigen und teuren Produkten  
+- wichtige Kunden und Umsatztreiber  
+- Nachfrageverhalten und Lagerprobleme  
+- Entwicklung des Unternehmens über mehrere Jahre  
 
-- `data/`  
-  Enthält die CSV-Dateien des Northwind-Datensatzes.
+---
 
-## Analysefragen
+## 👩‍💻 Projektteam
 
-Beantwortet wurden unter anderem:
-
-1. Welche Produkte wurden verkauft?
-2. Welche Produkte waren auf Lager?
-3. Welche Produkte sind am teuersten und günstigsten?
-4. Welcher Kunde hat am meisten gekauft?
-5. Welcher Verkäufer hatte die meisten Geschäfte?
-6. Welche Entwicklung gab es in den Jahren 1996 bis 1998?
-
-## Datenquelle
-
-Northwind-Datensatz von:
-
-https://github.com/pawlodkowski/northwind_data_clean
+**Nicole & Lili**

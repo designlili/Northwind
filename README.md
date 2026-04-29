@@ -1,4 +1,4 @@
-# 📊 Northwind Datenbank Projekt
+<p align="center">═══════ Nicole ✦ Lili ═══════</p>
 
 <p align="center">
   <img src="pic_001.png" width="100%">
@@ -9,7 +9,7 @@
   Projekt von <b>Nicole & Lili</b>
 </p>
 
----
+<p align="center">──────────── ✦ ────────────</p>
 
 ## 🧾 Projektbeschreibung
 
@@ -22,7 +22,7 @@ Ziel war es, eine vollständige Datenbankstruktur aufzubauen, Daten zu importier
 - SQL-Abfragen
 - Geschäftslogik
 
----
+<p align="center">──────────── ✦ ────────────</p>
 
 ## 🖼️ Projekt Einblicke
 
@@ -42,7 +42,8 @@ Ziel war es, eine vollständige Datenbankstruktur aufzubauen, Daten zu importier
 <p align="center">
   <img src="Pic_004.png" width="100%">
 </p>
----
+
+<p align="center">──────────── ✦ ────────────</p>
 
 ## 🗂️ Datenbankstruktur
 
@@ -59,7 +60,7 @@ Folgende Tabellen wurden erstellt und verknüpft:
 - 📍 territories  
 - 🗃️ categories  
 
----
+<p align="center">──────────── ✦ ────────────</p>
 
 ## 🔍 Analysen & Fragestellungen
 
@@ -78,7 +79,7 @@ Folgende Tabellen wurden erstellt und verknüpft:
 - 🛠️ DBeaver  
 - 💻 SQL  
 
----
+<p align="center">──────────── ✦ ────────────</p>
 
 ## 🧠 SQL Features
 
@@ -90,7 +91,7 @@ Folgende Tabellen wurden erstellt und verknüpft:
 - Trigger  
 - CSV-Import mit COPY  
 
----
+<p align="center">──────────── ✦ ────────────</p>
 
 ## 🚀 Erweiterungen
 
@@ -105,7 +106,7 @@ Folgende Tabellen wurden erstellt und verknüpft:
 - Bestellübersicht  
 - Umsatzanalysen  
 
----
+<p align="center">──────────── ✦ ────────────</p>
 
 ## 📈 Ergebnisse
 
@@ -117,13 +118,13 @@ Die Analyse zeigt:
 - Nachfrage- und Lagerverhalten  
 - Entwicklung des Unternehmens (1996–1998)  
 
----
+<p align="center">──────────── ✦ ────────────</p>
 
 ## 👩‍💻 Team
 
 **Nicole & Lili**
 
----
+<p align="center">──────────── ✦ ────────────</p>
 
 ## ⭐ Fazit
 

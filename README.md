@@ -26,15 +26,22 @@ Ziel war es, eine vollständige Datenbankstruktur aufzubauen, Daten zu importier
 
 ## 🖼️ Projekt Einblicke
 
+## 🖼️ Projekt Einblicke
+
+### Datenbank & Struktur
 <p align="center">
-  <img src="Pic_002.png" width="400">
-  <img src="Pic_003.png" width="400">
+  <img src="Pic_002.png" width="100%">
 </p>
 
+### Tabellen & Beziehungen
 <p align="center">
-  <img src="Pic_004.png" width="400">
+  <img src="Pic_003.png" width="100%">
 </p>
 
+### SQL Abfragen & Ergebnisse
+<p align="center">
+  <img src="Pic_004.png" width="100%">
+</p>
 ---
 
 ## 🗂️ Datenbankstruktur
